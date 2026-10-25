@@ -1,0 +1,4 @@
+Cricket07Lineup 3.2 initializing: v3.1 lineup rules; modified-EXE code/layout compatibility checks.
+EXE SHA-256: 6f8e4a41ecdd139765e6eb214c1a6d0cc8982359939bd80f30ea79da5316d72c
+WARNING: executable SHA-256 differs from reference; continuing with required code/layout checks.
+NOT APPLIED: compatibility check failed: required function VA 0x00417330 differs at RVA 0x00017338.

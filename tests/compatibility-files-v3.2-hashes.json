@@ -1,0 +1,14 @@
+[
+  {
+    "Path": "E:\\Cricket07\\Cricket07.exe",
+    "Hash": "D776DBA0CC506B968F7D228E036CF42AEB4ABE45A8D1AD0D7226CDEBF91553A2"
+  },
+  {
+    "Path": "D:\\Harshvardhan\\Documents\\ChatGPT\\C07 Functional Analysis 2\\plugins\\Cricket07Lineup\\tests\\compatibility-fixtures\\Cricket07-overlay-modified.exe",
+    "Hash": "7C217B094B37771EE2BA573B0671ABCD9D31C960B078966FD96EAF7309D0E282"
+  },
+  {
+    "Path": "D:\\Harshvardhan\\Documents\\ChatGPT\\C07 Functional Analysis 2\\plugins\\Cricket07Lineup\\tests\\compatibility-fixtures\\Cricket07-lineup-modified.exe",
+    "Hash": "6F8E4A41ECDD139765E6EB214C1A6D0CC8982359939BD80F30EA79DA5316D72C"
+  }
+]

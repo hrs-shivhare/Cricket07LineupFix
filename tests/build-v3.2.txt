@@ -1,0 +1,85 @@
+Cricket07Lineup 3.1 core tests passed (6000 varied squads plus directed rules).
+Live South Africa fixture passed: limited XI retained; early Kallis Test flex makes Hall replace Bosman.
+Roster replay team=0 limited pitch=0:
+  1. M.Hayden             ID=1814 role=2 Skill(raw)=57 Accuracy(raw)=28
+  2. J.Langer             ID=11373 role=2 Skill(raw)=56 Accuracy(raw)=13
+  3. R.Ponting            ID=15819 role=1 Skill(raw)=59 Accuracy(raw)=39
+  4. D.Martyn             ID=6095 role=1 Skill(raw)=56 Accuracy(raw)=42
+  5. M.Clarke             ID=10942 role=1 Skill(raw)=55 Accuracy(raw)=46
+  6. A.Gilchrist          ID=4196 role=7 Skill(raw)=53 Accuracy(raw)=8 [keeper]
+  7. S.Watson             ID=693 role=9 Skill(raw)=48 Accuracy(raw)=54
+  8. S.Warne              ID=31486 role=4 Skill(raw)=41 Accuracy(raw)=57
+  9. B.Lee                ID=15909 role=10 Skill(raw)=39 Accuracy(raw)=56
+ 10. S.Clark              ID=18204 role=3 Skill(raw)=36 Accuracy(raw)=54
+ 11. G.McGrath            ID=18858 role=10 Skill(raw)=35 Accuracy(raw)=58
+Roster replay team=0 limited pitch=8:
+  1. M.Hayden             ID=1814 role=2 Skill(raw)=57 Accuracy(raw)=28
+  2. J.Langer             ID=11373 role=2 Skill(raw)=56 Accuracy(raw)=13
+  3. R.Ponting            ID=15819 role=1 Skill(raw)=59 Accuracy(raw)=39
+  4. D.Martyn             ID=6095 role=1 Skill(raw)=56 Accuracy(raw)=42
+  5. M.Clarke             ID=10942 role=1 Skill(raw)=55 Accuracy(raw)=46
+  6. A.Symonds            ID=1536 role=9 Skill(raw)=54 Accuracy(raw)=48
+  7. A.Gilchrist          ID=4196 role=7 Skill(raw)=53 Accuracy(raw)=8 [keeper]
+  8. S.Watson             ID=693 role=9 Skill(raw)=48 Accuracy(raw)=54
+  9. S.Warne              ID=31486 role=4 Skill(raw)=41 Accuracy(raw)=57
+ 10. B.Lee                ID=15909 role=10 Skill(raw)=39 Accuracy(raw)=56
+ 11. G.McGrath            ID=18858 role=10 Skill(raw)=35 Accuracy(raw)=58
+Roster replay team=13 limited pitch=0:
+  1. V.Seway              ID=13319 role=2 Skill(raw)=55 Accuracy(raw)=43
+  2. G.Gemphir            ID=23655 role=2 Skill(raw)=48 Accuracy(raw)=42
+  3. S.Tendehar           ID=929 role=1 Skill(raw)=60 Accuracy(raw)=45
+  4. R.Dravia             ID=18058 role=1 Skill(raw)=58 Accuracy(raw)=33
+  5. S.Gungly             ID=2103 role=1 Skill(raw)=55 Accuracy(raw)=42
+  6. D.Dhenier            ID=32749 role=7 Skill(raw)=50 Accuracy(raw)=6 [keeper]
+  7. Yevray Singh         ID=1064 role=9 Skill(raw)=49 Accuracy(raw)=42
+  8. Hurvaj Singh         ID=11422 role=4 Skill(raw)=40 Accuracy(raw)=57
+  9. Z.Kalm               ID=179 role=10 Skill(raw)=38 Accuracy(raw)=54
+ 10. A.Agercker           ID=18217 role=10 Skill(raw)=38 Accuracy(raw)=51
+ 11. A.Naharem            ID=10851 role=3 Skill(raw)=37 Accuracy(raw)=51
+Roster replay team=13 limited pitch=8:
+  1. V.Seway              ID=13319 role=2 Skill(raw)=55 Accuracy(raw)=43
+  2. G.Gemphir            ID=23655 role=2 Skill(raw)=48 Accuracy(raw)=42
+  3. S.Tendehar           ID=929 role=1 Skill(raw)=60 Accuracy(raw)=45
+  4. R.Dravia             ID=18058 role=1 Skill(raw)=58 Accuracy(raw)=33
+  5. S.Gungly             ID=2103 role=1 Skill(raw)=55 Accuracy(raw)=42
+  6. D.Dhenier            ID=32749 role=7 Skill(raw)=50 Accuracy(raw)=6 [keeper]
+  7. Yevray Singh         ID=1064 role=9 Skill(raw)=49 Accuracy(raw)=42
+  8. S.Bengel             ID=19594 role=9 Skill(raw)=48 Accuracy(raw)=40
+  9. Hurvaj Singh         ID=11422 role=4 Skill(raw)=40 Accuracy(raw)=57
+ 10. Z.Kalm               ID=179 role=10 Skill(raw)=38 Accuracy(raw)=54
+ 11. A.Agercker           ID=18217 role=10 Skill(raw)=38 Accuracy(raw)=51
+Roster replay team=30 limited pitch=0:
+  1. G.Smith              ID=1969 role=2 Skill(raw)=56 Accuracy(raw)=34
+  2. B.Dippenaar          ID=13615 role=2 Skill(raw)=52 Accuracy(raw)=12
+  3. J.Kallis             ID=2390 role=9 Skill(raw)=57 Accuracy(raw)=56
+  4. H.Gibbs              ID=13108 role=1 Skill(raw)=56 Accuracy(raw)=38
+  5. J.Rudolph            ID=12388 role=1 Skill(raw)=54 Accuracy(raw)=45
+  6. A.de Villiers        ID=47 role=1 Skill(raw)=52 Accuracy(raw)=12
+  7. M.Boucher            ID=11653 role=6 Skill(raw)=49 Accuracy(raw)=8 [keeper]
+  8. A.Hall               ID=25003 role=9 Skill(raw)=49 Accuracy(raw)=54
+  9. S.Pollock            ID=3152 role=10 Skill(raw)=48 Accuracy(raw)=58
+ 10. N.Boje               ID=29933 role=5 Skill(raw)=47 Accuracy(raw)=54
+ 11. M.Ntini              ID=4941 role=10 Skill(raw)=37 Accuracy(raw)=56
+Roster replay team=30 limited pitch=8:
+  1. G.Smith              ID=1969 role=2 Skill(raw)=56 Accuracy(raw)=34
+  2. B.Dippenaar          ID=13615 role=2 Skill(raw)=52 Accuracy(raw)=12
+  3. J.Kallis             ID=2390 role=9 Skill(raw)=57 Accuracy(raw)=56
+  4. H.Gibbs              ID=13108 role=1 Skill(raw)=56 Accuracy(raw)=38
+  5. J.Rudolph            ID=12388 role=1 Skill(raw)=54 Accuracy(raw)=45
+  6. A.de Villiers        ID=47 role=1 Skill(raw)=52 Accuracy(raw)=12
+  7. M.Boucher            ID=11653 role=6 Skill(raw)=49 Accuracy(raw)=8 [keeper]
+  8. A.Hall               ID=25003 role=9 Skill(raw)=49 Accuracy(raw)=54
+  9. S.Pollock            ID=3152 role=10 Skill(raw)=48 Accuracy(raw)=58
+ 10. N.Boje               ID=29933 role=5 Skill(raw)=47 Accuracy(raw)=54
+ 11. M.Ntini              ID=4941 role=10 Skill(raw)=37 Accuracy(raw)=56
+Roster replay passed: 63 teams, 2142 cases (17 pitches x 2 formats), 0 invalid entries skipped.
+Evidence scope: actual extracted roster + replacement core; no native game execution.
+Native adapter/thiscall/detour/trampoline/DLL tests passed (136 pitch/format/side/keeper cases).
+Compatibility fixtures passed (48 checks: unrelated changes accepted; required code/layout/protection failures refused).
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          3B52A667E4877AB8E5CC7C36C9760B9335D61D1A29B44608434CEC1669F46B38       D:\Harshvardhan\Documents\ChatGP…
+Upgraded version 3.1; previous ASI preserved in D:\Harshvardhan\Documents\ChatGPT\C07 Functional Analysis 2\plugins\Cricket07Lineup\releases\3.1
+SHA256          3B52A667E4877AB8E5CC7C36C9760B9335D61D1A29B44608434CEC1669F46B38       E:\Cricket07\Cricket07Lineup.asi
+

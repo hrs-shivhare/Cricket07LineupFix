@@ -1,0 +1,6 @@
+Cricket07Lineup 3.2 initializing: v3.1 lineup rules; modified-EXE code/layout compatibility checks.
+EXE SHA-256: 7c217b094b37771ee2ba573b0671abcd9d31c960b078966fd96eaf7309d0e282
+WARNING: executable SHA-256 differs from reference; continuing with required code/layout checks.
+COMPATIBLE: 15 required functions, lineup entry and data ranges match reference layout.
+APPLIED: automatic lineup builder at VA 0x417330 (RVA 0x17330).
+Rules: limited ALL/ASP Accuracy first; applicable Test BAT/ALL Skill flex before bowling; missing OBW join BWL/ALL; keeper competes for opener.

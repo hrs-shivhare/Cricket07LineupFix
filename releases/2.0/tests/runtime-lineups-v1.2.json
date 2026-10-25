@@ -1,0 +1,4081 @@
+{
+  "evidence_id": "ev_5c613b86a57a9b9927aa277690dbe8e57d7af108fbcc97557fc44aa96259c36e",
+  "subject": null,
+  "provider": {
+    "id": "frida",
+    "name": "Frida",
+    "version": null
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.frida.instrumentation-observation",
+  "operation": "instrument_with_frida",
+  "parameters": {
+    "session_id": "c0d13fb8-79a3-4f6d-b6ef-bc7342e71366",
+    "device_id": "local",
+    "mode": "attach",
+    "pid": 13972
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "session_id": "c0d13fb8-79a3-4f6d-b6ef-bc7342e71366",
+    "device_id": "local",
+    "state": "running",
+    "target": "Cricket07.exe (pid 13972)",
+    "pid": 13972,
+    "mode": "attach",
+    "scripts": [
+      {
+        "script_id": "d4cf7500-87fb-410e-bb75-1451b938136a",
+        "name": "rea-d4cf7500-87fb-410e-bb75-1451b938136a"
+      }
+    ],
+    "messages": [
+      {
+        "script_id": "d4cf7500-87fb-410e-bb75-1451b938136a",
+        "type": "send",
+        "payload": {
+          "type": "armed",
+          "pid": 13972,
+          "trigger": "next window-message pump return with a valid roster"
+        }
+      },
+      {
+        "script_id": "d4cf7500-87fb-410e-bb75-1451b938136a",
+        "type": "send",
+        "payload": {
+          "type": "runtime-lineup-checks",
+          "passed": true,
+          "cases": 24,
+          "owkTeam": 15,
+          "results": [
+            {
+              "team": 0,
+              "side": 0,
+              "pitch": 0,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 4196,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                18858,
+                15909,
+                18204,
+                31486
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                4196,
+                18858,
+                15909,
+                18204,
+                31486,
+                11373,
+                1814,
+                15819,
+                6095,
+                10942,
+                693
+              ],
+              "battingTrio": [
+                15819,
+                6095,
+                10942
+              ],
+              "battingAllrounders": 0,
+              "accuracyWinner": 693,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": 1,
+              "additionalPicks": [
+                {
+                  "id": 693,
+                  "role": 9,
+                  "pool": "ALL/ASP",
+                  "criterion": "Accuracy"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 11373,
+                  "name": "J.Langer",
+                  "role": 2,
+                  "skill": 56,
+                  "accuracy": 13,
+                  "primary": 6,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 1814,
+                  "name": "M.Hayden",
+                  "role": 2,
+                  "skill": 57,
+                  "accuracy": 28,
+                  "primary": 6,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15819,
+                  "name": "R.Ponting",
+                  "role": 1,
+                  "skill": 59,
+                  "accuracy": 39,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 6095,
+                  "name": "D.Martyn",
+                  "role": 1,
+                  "skill": 56,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10942,
+                  "name": "M.Clarke",
+                  "role": 1,
+                  "skill": 55,
+                  "accuracy": 46,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4196,
+                  "name": "A.Gilchrist",
+                  "role": 7,
+                  "skill": 53,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 693,
+                  "name": "S.Watson",
+                  "role": 9,
+                  "skill": 48,
+                  "accuracy": 54,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 31486,
+                  "name": "S.Warne",
+                  "role": 4,
+                  "skill": 41,
+                  "accuracy": 57,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15909,
+                  "name": "B.Lee",
+                  "role": 10,
+                  "skill": 39,
+                  "accuracy": 56,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18204,
+                  "name": "S.Clark",
+                  "role": 3,
+                  "skill": 36,
+                  "accuracy": 54,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18858,
+                  "name": "G.McGrath",
+                  "role": 10,
+                  "skill": 35,
+                  "accuracy": 58,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                18858,
+                15909,
+                18204,
+                31486,
+                693,
+                10942
+              ],
+              "passed": true
+            },
+            {
+              "team": 0,
+              "side": 0,
+              "pitch": 8,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 4196,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                18858,
+                15909,
+                31486
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                4196,
+                18858,
+                15909,
+                31486,
+                11373,
+                1814,
+                15819,
+                6095,
+                10942,
+                693,
+                1536
+              ],
+              "battingTrio": [
+                15819,
+                6095,
+                10942
+              ],
+              "battingAllrounders": 0,
+              "accuracyWinner": 693,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": 2,
+              "additionalPicks": [
+                {
+                  "id": 693,
+                  "role": 9,
+                  "pool": "ALL/ASP",
+                  "criterion": "Accuracy"
+                },
+                {
+                  "id": 1536,
+                  "role": 9,
+                  "pool": "ALL/ASP",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 11373,
+                  "name": "J.Langer",
+                  "role": 2,
+                  "skill": 56,
+                  "accuracy": 13,
+                  "primary": 6,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 1814,
+                  "name": "M.Hayden",
+                  "role": 2,
+                  "skill": 57,
+                  "accuracy": 28,
+                  "primary": 6,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15819,
+                  "name": "R.Ponting",
+                  "role": 1,
+                  "skill": 59,
+                  "accuracy": 39,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 6095,
+                  "name": "D.Martyn",
+                  "role": 1,
+                  "skill": 56,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10942,
+                  "name": "M.Clarke",
+                  "role": 1,
+                  "skill": 55,
+                  "accuracy": 46,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 1536,
+                  "name": "A.Symonds",
+                  "role": 9,
+                  "skill": 54,
+                  "accuracy": 48,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4196,
+                  "name": "A.Gilchrist",
+                  "role": 7,
+                  "skill": 53,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 693,
+                  "name": "S.Watson",
+                  "role": 9,
+                  "skill": 48,
+                  "accuracy": 54,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 31486,
+                  "name": "S.Warne",
+                  "role": 4,
+                  "skill": 41,
+                  "accuracy": 57,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15909,
+                  "name": "B.Lee",
+                  "role": 10,
+                  "skill": 39,
+                  "accuracy": 56,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18858,
+                  "name": "G.McGrath",
+                  "role": 10,
+                  "skill": 35,
+                  "accuracy": 58,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                18858,
+                15909,
+                31486,
+                693,
+                1536,
+                10942
+              ],
+              "passed": true
+            },
+            {
+              "team": 0,
+              "side": 0,
+              "pitch": 0,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 4196,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                18858,
+                15909,
+                18204,
+                31486
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                4196,
+                18858,
+                15909,
+                18204,
+                31486,
+                11373,
+                1814,
+                15819,
+                6095,
+                10942,
+                21722
+              ],
+              "battingTrio": [
+                15819,
+                6095,
+                10942
+              ],
+              "battingAllrounders": 0,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [
+                {
+                  "id": 21722,
+                  "role": 1,
+                  "pool": "BAT/ALL",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 11373,
+                  "name": "J.Langer",
+                  "role": 2,
+                  "skill": 56,
+                  "accuracy": 13,
+                  "primary": 6,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 1814,
+                  "name": "M.Hayden",
+                  "role": 2,
+                  "skill": 57,
+                  "accuracy": 28,
+                  "primary": 6,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15819,
+                  "name": "R.Ponting",
+                  "role": 1,
+                  "skill": 59,
+                  "accuracy": 39,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 6095,
+                  "name": "D.Martyn",
+                  "role": 1,
+                  "skill": 56,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10942,
+                  "name": "M.Clarke",
+                  "role": 1,
+                  "skill": 55,
+                  "accuracy": 46,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 21722,
+                  "name": "M.Hussey",
+                  "role": 1,
+                  "skill": 55,
+                  "accuracy": 33,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4196,
+                  "name": "A.Gilchrist",
+                  "role": 7,
+                  "skill": 53,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 31486,
+                  "name": "S.Warne",
+                  "role": 4,
+                  "skill": 41,
+                  "accuracy": 57,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15909,
+                  "name": "B.Lee",
+                  "role": 10,
+                  "skill": 39,
+                  "accuracy": 56,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18204,
+                  "name": "S.Clark",
+                  "role": 3,
+                  "skill": 36,
+                  "accuracy": 54,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18858,
+                  "name": "G.McGrath",
+                  "role": 10,
+                  "skill": 35,
+                  "accuracy": 58,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                18858,
+                15909,
+                18204,
+                31486,
+                10942,
+                6095
+              ],
+              "passed": true
+            },
+            {
+              "team": 0,
+              "side": 0,
+              "pitch": 8,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 4196,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                18858,
+                15909,
+                18204,
+                8881,
+                31486
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                4196,
+                18858,
+                15909,
+                18204,
+                8881,
+                31486,
+                11373,
+                1814,
+                15819,
+                6095,
+                10942
+              ],
+              "battingTrio": [
+                15819,
+                6095,
+                10942
+              ],
+              "battingAllrounders": 0,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [],
+              "xi": [
+                {
+                  "id": 11373,
+                  "name": "J.Langer",
+                  "role": 2,
+                  "skill": 56,
+                  "accuracy": 13,
+                  "primary": 6,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 1814,
+                  "name": "M.Hayden",
+                  "role": 2,
+                  "skill": 57,
+                  "accuracy": 28,
+                  "primary": 6,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15819,
+                  "name": "R.Ponting",
+                  "role": 1,
+                  "skill": 59,
+                  "accuracy": 39,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 6095,
+                  "name": "D.Martyn",
+                  "role": 1,
+                  "skill": 56,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10942,
+                  "name": "M.Clarke",
+                  "role": 1,
+                  "skill": 55,
+                  "accuracy": 46,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4196,
+                  "name": "A.Gilchrist",
+                  "role": 7,
+                  "skill": 53,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 31486,
+                  "name": "S.Warne",
+                  "role": 4,
+                  "skill": 41,
+                  "accuracy": 57,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15909,
+                  "name": "B.Lee",
+                  "role": 10,
+                  "skill": 39,
+                  "accuracy": 56,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 8881,
+                  "name": "N.Bracken",
+                  "role": 3,
+                  "skill": 39,
+                  "accuracy": 54,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18204,
+                  "name": "S.Clark",
+                  "role": 3,
+                  "skill": 36,
+                  "accuracy": 54,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18858,
+                  "name": "G.McGrath",
+                  "role": 10,
+                  "skill": 35,
+                  "accuracy": 58,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                18858,
+                15909,
+                18204,
+                8881,
+                31486,
+                10942
+              ],
+              "passed": true
+            },
+            {
+              "team": 13,
+              "side": 1,
+              "pitch": 0,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 32749,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                179,
+                18217,
+                10851,
+                11422
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                32749,
+                179,
+                18217,
+                10851,
+                11422,
+                23655,
+                13319,
+                929,
+                18058,
+                2103,
+                1064
+              ],
+              "battingTrio": [
+                929,
+                18058,
+                2103
+              ],
+              "battingAllrounders": 0,
+              "accuracyWinner": 1064,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": 1,
+              "additionalPicks": [
+                {
+                  "id": 1064,
+                  "role": 9,
+                  "pool": "ALL/ASP",
+                  "criterion": "Accuracy"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 23655,
+                  "name": "G.Gemphir",
+                  "role": 2,
+                  "skill": 48,
+                  "accuracy": 42,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13319,
+                  "name": "V.Seway",
+                  "role": 2,
+                  "skill": 55,
+                  "accuracy": 43,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 929,
+                  "name": "S.Tendehar",
+                  "role": 1,
+                  "skill": 60,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18058,
+                  "name": "R.Dravia",
+                  "role": 1,
+                  "skill": 58,
+                  "accuracy": 33,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2103,
+                  "name": "S.Gungly",
+                  "role": 1,
+                  "skill": 55,
+                  "accuracy": 42,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 32749,
+                  "name": "D.Dhenier",
+                  "role": 7,
+                  "skill": 50,
+                  "accuracy": 6,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 1064,
+                  "name": "Yevray Singh",
+                  "role": 9,
+                  "skill": 49,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 11422,
+                  "name": "Hurvaj Singh",
+                  "role": 4,
+                  "skill": 40,
+                  "accuracy": 57,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 179,
+                  "name": "Z.Kalm",
+                  "role": 10,
+                  "skill": 38,
+                  "accuracy": 54,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18217,
+                  "name": "A.Agercker",
+                  "role": 10,
+                  "skill": 38,
+                  "accuracy": 51,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10851,
+                  "name": "A.Naharem",
+                  "role": 3,
+                  "skill": 37,
+                  "accuracy": 51,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                179,
+                18217,
+                10851,
+                11422,
+                1064,
+                929
+              ],
+              "passed": true
+            },
+            {
+              "team": 13,
+              "side": 1,
+              "pitch": 8,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 32749,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                179,
+                18217,
+                11422
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                32749,
+                179,
+                18217,
+                11422,
+                23655,
+                13319,
+                929,
+                18058,
+                2103,
+                1064,
+                19594
+              ],
+              "battingTrio": [
+                929,
+                18058,
+                2103
+              ],
+              "battingAllrounders": 0,
+              "accuracyWinner": 1064,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": 2,
+              "additionalPicks": [
+                {
+                  "id": 1064,
+                  "role": 9,
+                  "pool": "ALL/ASP",
+                  "criterion": "Accuracy"
+                },
+                {
+                  "id": 19594,
+                  "role": 9,
+                  "pool": "ALL/ASP",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 23655,
+                  "name": "G.Gemphir",
+                  "role": 2,
+                  "skill": 48,
+                  "accuracy": 42,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13319,
+                  "name": "V.Seway",
+                  "role": 2,
+                  "skill": 55,
+                  "accuracy": 43,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 929,
+                  "name": "S.Tendehar",
+                  "role": 1,
+                  "skill": 60,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18058,
+                  "name": "R.Dravia",
+                  "role": 1,
+                  "skill": 58,
+                  "accuracy": 33,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2103,
+                  "name": "S.Gungly",
+                  "role": 1,
+                  "skill": 55,
+                  "accuracy": 42,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 32749,
+                  "name": "D.Dhenier",
+                  "role": 7,
+                  "skill": 50,
+                  "accuracy": 6,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 1064,
+                  "name": "Yevray Singh",
+                  "role": 9,
+                  "skill": 49,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 19594,
+                  "name": "S.Bengel",
+                  "role": 9,
+                  "skill": 48,
+                  "accuracy": 40,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 11422,
+                  "name": "Hurvaj Singh",
+                  "role": 4,
+                  "skill": 40,
+                  "accuracy": 57,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 179,
+                  "name": "Z.Kalm",
+                  "role": 10,
+                  "skill": 38,
+                  "accuracy": 54,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18217,
+                  "name": "A.Agercker",
+                  "role": 10,
+                  "skill": 38,
+                  "accuracy": 51,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                179,
+                18217,
+                11422,
+                1064,
+                19594,
+                929
+              ],
+              "passed": true
+            },
+            {
+              "team": 13,
+              "side": 1,
+              "pitch": 0,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 32749,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                179,
+                18217,
+                10851,
+                11422
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                32749,
+                179,
+                18217,
+                10851,
+                11422,
+                23655,
+                13319,
+                929,
+                18058,
+                2103,
+                5386
+              ],
+              "battingTrio": [
+                929,
+                18058,
+                2103
+              ],
+              "battingAllrounders": 0,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [
+                {
+                  "id": 5386,
+                  "role": 1,
+                  "pool": "BAT/ALL",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 23655,
+                  "name": "G.Gemphir",
+                  "role": 2,
+                  "skill": 48,
+                  "accuracy": 42,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13319,
+                  "name": "V.Seway",
+                  "role": 2,
+                  "skill": 55,
+                  "accuracy": 43,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 929,
+                  "name": "S.Tendehar",
+                  "role": 1,
+                  "skill": 60,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18058,
+                  "name": "R.Dravia",
+                  "role": 1,
+                  "skill": 58,
+                  "accuracy": 33,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2103,
+                  "name": "S.Gungly",
+                  "role": 1,
+                  "skill": 55,
+                  "accuracy": 42,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 5386,
+                  "name": "V.Lexingten",
+                  "role": 1,
+                  "skill": 54,
+                  "accuracy": 35,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 32749,
+                  "name": "D.Dhenier",
+                  "role": 7,
+                  "skill": 50,
+                  "accuracy": 6,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 11422,
+                  "name": "Hurvaj Singh",
+                  "role": 4,
+                  "skill": 40,
+                  "accuracy": 57,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 179,
+                  "name": "Z.Kalm",
+                  "role": 10,
+                  "skill": 38,
+                  "accuracy": 54,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18217,
+                  "name": "A.Agercker",
+                  "role": 10,
+                  "skill": 38,
+                  "accuracy": 51,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10851,
+                  "name": "A.Naharem",
+                  "role": 3,
+                  "skill": 37,
+                  "accuracy": 51,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                179,
+                18217,
+                10851,
+                11422,
+                929,
+                13319
+              ],
+              "passed": true
+            },
+            {
+              "team": 13,
+              "side": 1,
+              "pitch": 8,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 32749,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                179,
+                18217,
+                10851,
+                11422,
+                178
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                32749,
+                179,
+                18217,
+                10851,
+                11422,
+                178,
+                23655,
+                13319,
+                929,
+                18058,
+                2103
+              ],
+              "battingTrio": [
+                929,
+                18058,
+                2103
+              ],
+              "battingAllrounders": 0,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [],
+              "xi": [
+                {
+                  "id": 23655,
+                  "name": "G.Gemphir",
+                  "role": 2,
+                  "skill": 48,
+                  "accuracy": 42,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13319,
+                  "name": "V.Seway",
+                  "role": 2,
+                  "skill": 55,
+                  "accuracy": 43,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 929,
+                  "name": "S.Tendehar",
+                  "role": 1,
+                  "skill": 60,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18058,
+                  "name": "R.Dravia",
+                  "role": 1,
+                  "skill": 58,
+                  "accuracy": 33,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2103,
+                  "name": "S.Gungly",
+                  "role": 1,
+                  "skill": 55,
+                  "accuracy": 42,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 32749,
+                  "name": "D.Dhenier",
+                  "role": 7,
+                  "skill": 50,
+                  "accuracy": 6,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 178,
+                  "name": "J.Krumble",
+                  "role": 4,
+                  "skill": 43,
+                  "accuracy": 56,
+                  "primary": 5,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 11422,
+                  "name": "Hurvaj Singh",
+                  "role": 4,
+                  "skill": 40,
+                  "accuracy": 57,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 179,
+                  "name": "Z.Kalm",
+                  "role": 10,
+                  "skill": 38,
+                  "accuracy": 54,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18217,
+                  "name": "A.Agercker",
+                  "role": 10,
+                  "skill": 38,
+                  "accuracy": 51,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10851,
+                  "name": "A.Naharem",
+                  "role": 3,
+                  "skill": 37,
+                  "accuracy": 51,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                179,
+                18217,
+                10851,
+                11422,
+                178,
+                929
+              ],
+              "passed": true
+            },
+            {
+              "team": 1,
+              "side": 1,
+              "pitch": 0,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 8584,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                12380,
+                3636,
+                22617,
+                5987
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                8584,
+                12380,
+                3636,
+                22617,
+                5987,
+                25732,
+                15006,
+                21285,
+                13894,
+                2218,
+                23932
+              ],
+              "battingTrio": [
+                21285,
+                13894,
+                2218
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": 13894,
+              "accuracyCredit": true,
+              "requiredAdditionalALL": 0,
+              "additionalPicks": [
+                {
+                  "id": 23932,
+                  "role": 1,
+                  "pool": "any",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 25732,
+                  "name": "Harman Sakir",
+                  "role": 2,
+                  "skill": 46,
+                  "accuracy": 39,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15006,
+                  "name": "Jased Omir",
+                  "role": 2,
+                  "skill": 49,
+                  "accuracy": 21,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 21285,
+                  "name": "Habib Beshir",
+                  "role": 1,
+                  "skill": 52,
+                  "accuracy": 29,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13894,
+                  "name": "Alik Kapeli",
+                  "role": 5,
+                  "skill": 52,
+                  "accuracy": 44,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2218,
+                  "name": "Raizin Saleb",
+                  "role": 1,
+                  "skill": 51,
+                  "accuracy": 37,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 23932,
+                  "name": "Al Sahara",
+                  "role": 1,
+                  "skill": 48,
+                  "accuracy": 11,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 8584,
+                  "name": "Khalid Mased",
+                  "role": 6,
+                  "skill": 46,
+                  "accuracy": 9,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 22617,
+                  "name": "Mandjura Islam",
+                  "role": 3,
+                  "skill": 41,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12380,
+                  "name": "Mashef Mortaz",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 49,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 5987,
+                  "name": "Abdul Razzik",
+                  "role": 4,
+                  "skill": 34,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 3636,
+                  "name": "Tarek Aziq",
+                  "role": 10,
+                  "skill": 33,
+                  "accuracy": 46,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                12380,
+                3636,
+                22617,
+                5987,
+                13894,
+                25732
+              ],
+              "passed": true
+            },
+            {
+              "team": 1,
+              "side": 1,
+              "pitch": 8,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 8584,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                12380,
+                3636,
+                5987
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                8584,
+                12380,
+                3636,
+                5987,
+                25732,
+                15006,
+                21285,
+                13894,
+                2218,
+                23932,
+                29594
+              ],
+              "battingTrio": [
+                21285,
+                13894,
+                2218
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": 13894,
+              "accuracyCredit": true,
+              "requiredAdditionalALL": 0,
+              "additionalPicks": [
+                {
+                  "id": 23932,
+                  "role": 1,
+                  "pool": "any",
+                  "criterion": "Skill"
+                },
+                {
+                  "id": 29594,
+                  "role": 4,
+                  "pool": "any",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 25732,
+                  "name": "Harman Sakir",
+                  "role": 2,
+                  "skill": 46,
+                  "accuracy": 39,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15006,
+                  "name": "Jased Omir",
+                  "role": 2,
+                  "skill": 49,
+                  "accuracy": 21,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 21285,
+                  "name": "Habib Beshir",
+                  "role": 1,
+                  "skill": 52,
+                  "accuracy": 29,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13894,
+                  "name": "Alik Kapeli",
+                  "role": 5,
+                  "skill": 52,
+                  "accuracy": 44,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2218,
+                  "name": "Raizin Saleb",
+                  "role": 1,
+                  "skill": 51,
+                  "accuracy": 37,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 23932,
+                  "name": "Al Sahara",
+                  "role": 1,
+                  "skill": 48,
+                  "accuracy": 11,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 8584,
+                  "name": "Khalid Mased",
+                  "role": 6,
+                  "skill": 46,
+                  "accuracy": 9,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 29594,
+                  "name": "M.Rafike",
+                  "role": 4,
+                  "skill": 46,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12380,
+                  "name": "Mashef Mortaz",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 49,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 5987,
+                  "name": "Abdul Razzik",
+                  "role": 4,
+                  "skill": 34,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 3636,
+                  "name": "Tarek Aziq",
+                  "role": 10,
+                  "skill": 33,
+                  "accuracy": 46,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                12380,
+                3636,
+                5987,
+                13894,
+                29594,
+                25732
+              ],
+              "passed": true
+            },
+            {
+              "team": 1,
+              "side": 1,
+              "pitch": 0,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 8584,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                12380,
+                3636,
+                22617,
+                5987
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                8584,
+                12380,
+                3636,
+                22617,
+                5987,
+                25732,
+                15006,
+                21285,
+                13894,
+                2218,
+                23932
+              ],
+              "battingTrio": [
+                21285,
+                13894,
+                2218
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [
+                {
+                  "id": 23932,
+                  "role": 1,
+                  "pool": "BAT/ALL",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 25732,
+                  "name": "Harman Sakir",
+                  "role": 2,
+                  "skill": 46,
+                  "accuracy": 39,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15006,
+                  "name": "Jased Omir",
+                  "role": 2,
+                  "skill": 49,
+                  "accuracy": 21,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 21285,
+                  "name": "Habib Beshir",
+                  "role": 1,
+                  "skill": 52,
+                  "accuracy": 29,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13894,
+                  "name": "Alik Kapeli",
+                  "role": 5,
+                  "skill": 52,
+                  "accuracy": 44,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2218,
+                  "name": "Raizin Saleb",
+                  "role": 1,
+                  "skill": 51,
+                  "accuracy": 37,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 23932,
+                  "name": "Al Sahara",
+                  "role": 1,
+                  "skill": 48,
+                  "accuracy": 11,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 8584,
+                  "name": "Khalid Mased",
+                  "role": 6,
+                  "skill": 46,
+                  "accuracy": 9,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 22617,
+                  "name": "Mandjura Islam",
+                  "role": 3,
+                  "skill": 41,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12380,
+                  "name": "Mashef Mortaz",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 49,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 5987,
+                  "name": "Abdul Razzik",
+                  "role": 4,
+                  "skill": 34,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 3636,
+                  "name": "Tarek Aziq",
+                  "role": 10,
+                  "skill": 33,
+                  "accuracy": 46,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                12380,
+                3636,
+                22617,
+                5987,
+                13894,
+                25732
+              ],
+              "passed": true
+            },
+            {
+              "team": 1,
+              "side": 1,
+              "pitch": 8,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 8584,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                12380,
+                3636,
+                22617,
+                14118,
+                5987
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                8584,
+                12380,
+                3636,
+                22617,
+                14118,
+                5987,
+                25732,
+                15006,
+                21285,
+                13894,
+                2218
+              ],
+              "battingTrio": [
+                21285,
+                13894,
+                2218
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [],
+              "xi": [
+                {
+                  "id": 25732,
+                  "name": "Harman Sakir",
+                  "role": 2,
+                  "skill": 46,
+                  "accuracy": 39,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 15006,
+                  "name": "Jased Omir",
+                  "role": 2,
+                  "skill": 49,
+                  "accuracy": 21,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 21285,
+                  "name": "Habib Beshir",
+                  "role": 1,
+                  "skill": 52,
+                  "accuracy": 29,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13894,
+                  "name": "Alik Kapeli",
+                  "role": 5,
+                  "skill": 52,
+                  "accuracy": 44,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2218,
+                  "name": "Raizin Saleb",
+                  "role": 1,
+                  "skill": 51,
+                  "accuracy": 37,
+                  "primary": 3,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 8584,
+                  "name": "Khalid Mased",
+                  "role": 6,
+                  "skill": 46,
+                  "accuracy": 9,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 22617,
+                  "name": "Mandjura Islam",
+                  "role": 3,
+                  "skill": 41,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 14118,
+                  "name": "Mustafa Rahmin",
+                  "role": 3,
+                  "skill": 40,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12380,
+                  "name": "Mashef Mortaz",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 49,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 5987,
+                  "name": "Abdul Razzik",
+                  "role": 4,
+                  "skill": 34,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 3636,
+                  "name": "Tarek Aziq",
+                  "role": 10,
+                  "skill": 33,
+                  "accuracy": 46,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                12380,
+                3636,
+                22617,
+                14118,
+                5987,
+                13894
+              ],
+              "passed": true
+            },
+            {
+              "team": 15,
+              "side": 1,
+              "pitch": 0,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 28904,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                10977,
+                18977,
+                12353,
+                31530
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                28904,
+                10977,
+                18977,
+                12353,
+                31530,
+                26099,
+                5124,
+                32469,
+                17919,
+                17131,
+                29960
+              ],
+              "battingTrio": [
+                5124,
+                32469,
+                17919
+              ],
+              "battingAllrounders": 2,
+              "accuracyWinner": 5124,
+              "accuracyCredit": true,
+              "requiredAdditionalALL": 0,
+              "additionalPicks": [
+                {
+                  "id": 17131,
+                  "role": 1,
+                  "pool": "any",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 28904,
+                  "name": "K.Otto",
+                  "role": 8,
+                  "skill": 45,
+                  "accuracy": 5,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 26099,
+                  "name": "R.Sharmen",
+                  "role": 2,
+                  "skill": 46,
+                  "accuracy": 29,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 5124,
+                  "name": "S.Tirol",
+                  "role": 9,
+                  "skill": 50,
+                  "accuracy": 42,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 32469,
+                  "name": "H.Moody",
+                  "role": 1,
+                  "skill": 45,
+                  "accuracy": 30,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 17919,
+                  "name": "M.Odenth",
+                  "role": 5,
+                  "skill": 42,
+                  "accuracy": 39,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 17131,
+                  "name": "B.Paters",
+                  "role": 1,
+                  "skill": 42,
+                  "accuracy": 36,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 29960,
+                  "name": "T.Saki",
+                  "role": 9,
+                  "skill": 39,
+                  "accuracy": 33,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 31530,
+                  "name": "C.Ontoya",
+                  "role": 4,
+                  "skill": 39,
+                  "accuracy": 46,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12353,
+                  "name": "P.Orten",
+                  "role": 3,
+                  "skill": 36,
+                  "accuracy": 37,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10977,
+                  "name": "M.Saki",
+                  "role": 10,
+                  "skill": 34,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18977,
+                  "name": "R.Aquart",
+                  "role": 3,
+                  "skill": 24,
+                  "accuracy": 47,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                10977,
+                18977,
+                12353,
+                31530,
+                5124,
+                17919
+              ],
+              "passed": true
+            },
+            {
+              "team": 15,
+              "side": 1,
+              "pitch": 8,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 28904,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                10977,
+                18977,
+                31530
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                28904,
+                10977,
+                18977,
+                31530,
+                26099,
+                5124,
+                32469,
+                17919,
+                17131,
+                29960,
+                29805
+              ],
+              "battingTrio": [
+                5124,
+                32469,
+                17919
+              ],
+              "battingAllrounders": 2,
+              "accuracyWinner": 5124,
+              "accuracyCredit": true,
+              "requiredAdditionalALL": 0,
+              "additionalPicks": [
+                {
+                  "id": 17131,
+                  "role": 1,
+                  "pool": "any",
+                  "criterion": "Skill"
+                },
+                {
+                  "id": 29960,
+                  "role": 9,
+                  "pool": "any",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 28904,
+                  "name": "K.Otto",
+                  "role": 8,
+                  "skill": 45,
+                  "accuracy": 5,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 26099,
+                  "name": "R.Sharmen",
+                  "role": 2,
+                  "skill": 46,
+                  "accuracy": 29,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 5124,
+                  "name": "S.Tirol",
+                  "role": 9,
+                  "skill": 50,
+                  "accuracy": 42,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 32469,
+                  "name": "H.Moody",
+                  "role": 1,
+                  "skill": 45,
+                  "accuracy": 30,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 17919,
+                  "name": "M.Odenth",
+                  "role": 5,
+                  "skill": 42,
+                  "accuracy": 39,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 17131,
+                  "name": "B.Paters",
+                  "role": 1,
+                  "skill": 42,
+                  "accuracy": 36,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 29960,
+                  "name": "T.Saki",
+                  "role": 9,
+                  "skill": 39,
+                  "accuracy": 33,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 29805,
+                  "name": "T.Odenko",
+                  "role": 9,
+                  "skill": 39,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 31530,
+                  "name": "C.Ontoya",
+                  "role": 4,
+                  "skill": 39,
+                  "accuracy": 46,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10977,
+                  "name": "M.Saki",
+                  "role": 10,
+                  "skill": 34,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18977,
+                  "name": "R.Aquart",
+                  "role": 3,
+                  "skill": 24,
+                  "accuracy": 47,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                10977,
+                18977,
+                31530,
+                5124,
+                29805,
+                17919
+              ],
+              "passed": true
+            },
+            {
+              "team": 15,
+              "side": 1,
+              "pitch": 0,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 28904,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                10977,
+                18977,
+                12353,
+                31530
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                28904,
+                10977,
+                18977,
+                12353,
+                31530,
+                26099,
+                5124,
+                32469,
+                17919,
+                17131,
+                29960
+              ],
+              "battingTrio": [
+                5124,
+                32469,
+                17919
+              ],
+              "battingAllrounders": 2,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [
+                {
+                  "id": 17131,
+                  "role": 1,
+                  "pool": "BAT/ALL",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 28904,
+                  "name": "K.Otto",
+                  "role": 8,
+                  "skill": 45,
+                  "accuracy": 5,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 26099,
+                  "name": "R.Sharmen",
+                  "role": 2,
+                  "skill": 46,
+                  "accuracy": 29,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 5124,
+                  "name": "S.Tirol",
+                  "role": 9,
+                  "skill": 50,
+                  "accuracy": 42,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 32469,
+                  "name": "H.Moody",
+                  "role": 1,
+                  "skill": 45,
+                  "accuracy": 30,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 17919,
+                  "name": "M.Odenth",
+                  "role": 5,
+                  "skill": 42,
+                  "accuracy": 39,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 17131,
+                  "name": "B.Paters",
+                  "role": 1,
+                  "skill": 42,
+                  "accuracy": 36,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 29960,
+                  "name": "T.Saki",
+                  "role": 9,
+                  "skill": 39,
+                  "accuracy": 33,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 31530,
+                  "name": "C.Ontoya",
+                  "role": 4,
+                  "skill": 39,
+                  "accuracy": 46,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12353,
+                  "name": "P.Orten",
+                  "role": 3,
+                  "skill": 36,
+                  "accuracy": 37,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10977,
+                  "name": "M.Saki",
+                  "role": 10,
+                  "skill": 34,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18977,
+                  "name": "R.Aquart",
+                  "role": 3,
+                  "skill": 24,
+                  "accuracy": 47,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                10977,
+                18977,
+                12353,
+                31530,
+                5124,
+                17919
+              ],
+              "passed": true
+            },
+            {
+              "team": 15,
+              "side": 1,
+              "pitch": 8,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 28904,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                10977,
+                18977,
+                12353,
+                14792,
+                31530
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                28904,
+                10977,
+                18977,
+                12353,
+                14792,
+                31530,
+                26099,
+                5124,
+                32469,
+                17919,
+                17131
+              ],
+              "battingTrio": [
+                5124,
+                32469,
+                17919
+              ],
+              "battingAllrounders": 2,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [],
+              "xi": [
+                {
+                  "id": 28904,
+                  "name": "K.Otto",
+                  "role": 8,
+                  "skill": 45,
+                  "accuracy": 5,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 26099,
+                  "name": "R.Sharmen",
+                  "role": 2,
+                  "skill": 46,
+                  "accuracy": 29,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 5124,
+                  "name": "S.Tirol",
+                  "role": 9,
+                  "skill": 50,
+                  "accuracy": 42,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 32469,
+                  "name": "H.Moody",
+                  "role": 1,
+                  "skill": 45,
+                  "accuracy": 30,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 17919,
+                  "name": "M.Odenth",
+                  "role": 5,
+                  "skill": 42,
+                  "accuracy": 39,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 17131,
+                  "name": "B.Paters",
+                  "role": 1,
+                  "skill": 42,
+                  "accuracy": 36,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 31530,
+                  "name": "C.Ontoya",
+                  "role": 4,
+                  "skill": 39,
+                  "accuracy": 46,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12353,
+                  "name": "P.Orten",
+                  "role": 3,
+                  "skill": 36,
+                  "accuracy": 37,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 10977,
+                  "name": "M.Saki",
+                  "role": 10,
+                  "skill": 34,
+                  "accuracy": 42,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 14792,
+                  "name": "A.Lucien",
+                  "role": 3,
+                  "skill": 33,
+                  "accuracy": 34,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 18977,
+                  "name": "R.Aquart",
+                  "role": 3,
+                  "skill": 24,
+                  "accuracy": 47,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                10977,
+                18977,
+                12353,
+                14792,
+                31530,
+                5124
+              ],
+              "passed": true
+            },
+            {
+              "team": 30,
+              "side": 1,
+              "pitch": 0,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 11653,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                3152,
+                4941,
+                8944,
+                29933
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                11653,
+                3152,
+                4941,
+                8944,
+                29933,
+                13615,
+                1969,
+                2390,
+                13108,
+                12388,
+                47
+              ],
+              "battingTrio": [
+                2390,
+                13108,
+                12388
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": 2390,
+              "accuracyCredit": true,
+              "requiredAdditionalALL": 0,
+              "additionalPicks": [
+                {
+                  "id": 47,
+                  "role": 1,
+                  "pool": "any",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 13615,
+                  "name": "B.Dippenaar",
+                  "role": 2,
+                  "skill": 52,
+                  "accuracy": 12,
+                  "primary": 0,
+                  "secondary": 4,
+                  "legacy": 0
+                },
+                {
+                  "id": 1969,
+                  "name": "G.Smith",
+                  "role": 2,
+                  "skill": 56,
+                  "accuracy": 34,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2390,
+                  "name": "J.Kallis",
+                  "role": 9,
+                  "skill": 57,
+                  "accuracy": 56,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13108,
+                  "name": "H.Gibbs",
+                  "role": 1,
+                  "skill": 56,
+                  "accuracy": 38,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12388,
+                  "name": "J.Rudolph",
+                  "role": 1,
+                  "skill": 54,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 47,
+                  "name": "A.de Villiers",
+                  "role": 1,
+                  "skill": 52,
+                  "accuracy": 12,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 11653,
+                  "name": "M.Boucher",
+                  "role": 6,
+                  "skill": 49,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 3152,
+                  "name": "S.Pollock",
+                  "role": 10,
+                  "skill": 48,
+                  "accuracy": 58,
+                  "primary": 5,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 29933,
+                  "name": "N.Boje",
+                  "role": 5,
+                  "skill": 47,
+                  "accuracy": 54,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4941,
+                  "name": "M.Ntini",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 56,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 8944,
+                  "name": "A.Nel",
+                  "role": 3,
+                  "skill": 35,
+                  "accuracy": 52,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                3152,
+                4941,
+                8944,
+                29933,
+                2390,
+                12388
+              ],
+              "passed": true
+            },
+            {
+              "team": 30,
+              "side": 1,
+              "pitch": 8,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 11653,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                3152,
+                4941,
+                29933
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                11653,
+                3152,
+                4941,
+                29933,
+                13615,
+                1969,
+                2390,
+                13108,
+                12388,
+                47,
+                153
+              ],
+              "battingTrio": [
+                2390,
+                13108,
+                12388
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": 2390,
+              "accuracyCredit": true,
+              "requiredAdditionalALL": 0,
+              "additionalPicks": [
+                {
+                  "id": 47,
+                  "role": 1,
+                  "pool": "any",
+                  "criterion": "Skill"
+                },
+                {
+                  "id": 153,
+                  "role": 1,
+                  "pool": "any",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 13615,
+                  "name": "B.Dippenaar",
+                  "role": 2,
+                  "skill": 52,
+                  "accuracy": 12,
+                  "primary": 0,
+                  "secondary": 4,
+                  "legacy": 0
+                },
+                {
+                  "id": 1969,
+                  "name": "G.Smith",
+                  "role": 2,
+                  "skill": 56,
+                  "accuracy": 34,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2390,
+                  "name": "J.Kallis",
+                  "role": 9,
+                  "skill": 57,
+                  "accuracy": 56,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13108,
+                  "name": "H.Gibbs",
+                  "role": 1,
+                  "skill": 56,
+                  "accuracy": 38,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12388,
+                  "name": "J.Rudolph",
+                  "role": 1,
+                  "skill": 54,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 47,
+                  "name": "A.de Villiers",
+                  "role": 1,
+                  "skill": 52,
+                  "accuracy": 12,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 153,
+                  "name": "L.Bosman",
+                  "role": 1,
+                  "skill": 51,
+                  "accuracy": 22,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 11653,
+                  "name": "M.Boucher",
+                  "role": 6,
+                  "skill": 49,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 3152,
+                  "name": "S.Pollock",
+                  "role": 10,
+                  "skill": 48,
+                  "accuracy": 58,
+                  "primary": 5,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 29933,
+                  "name": "N.Boje",
+                  "role": 5,
+                  "skill": 47,
+                  "accuracy": 54,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4941,
+                  "name": "M.Ntini",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 56,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                3152,
+                4941,
+                29933,
+                2390,
+                12388,
+                13108
+              ],
+              "passed": true
+            },
+            {
+              "team": 30,
+              "side": 1,
+              "pitch": 0,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 11653,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                3152,
+                4941,
+                8944,
+                29933
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                11653,
+                3152,
+                4941,
+                8944,
+                29933,
+                13615,
+                1969,
+                2390,
+                13108,
+                12388,
+                47
+              ],
+              "battingTrio": [
+                2390,
+                13108,
+                12388
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [
+                {
+                  "id": 47,
+                  "role": 1,
+                  "pool": "BAT/ALL",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 13615,
+                  "name": "B.Dippenaar",
+                  "role": 2,
+                  "skill": 52,
+                  "accuracy": 12,
+                  "primary": 0,
+                  "secondary": 4,
+                  "legacy": 0
+                },
+                {
+                  "id": 1969,
+                  "name": "G.Smith",
+                  "role": 2,
+                  "skill": 56,
+                  "accuracy": 34,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2390,
+                  "name": "J.Kallis",
+                  "role": 9,
+                  "skill": 57,
+                  "accuracy": 56,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13108,
+                  "name": "H.Gibbs",
+                  "role": 1,
+                  "skill": 56,
+                  "accuracy": 38,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12388,
+                  "name": "J.Rudolph",
+                  "role": 1,
+                  "skill": 54,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 47,
+                  "name": "A.de Villiers",
+                  "role": 1,
+                  "skill": 52,
+                  "accuracy": 12,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 11653,
+                  "name": "M.Boucher",
+                  "role": 6,
+                  "skill": 49,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 3152,
+                  "name": "S.Pollock",
+                  "role": 10,
+                  "skill": 48,
+                  "accuracy": 58,
+                  "primary": 5,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 29933,
+                  "name": "N.Boje",
+                  "role": 5,
+                  "skill": 47,
+                  "accuracy": 54,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4941,
+                  "name": "M.Ntini",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 56,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 8944,
+                  "name": "A.Nel",
+                  "role": 3,
+                  "skill": 35,
+                  "accuracy": 52,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                3152,
+                4941,
+                8944,
+                29933,
+                2390,
+                12388
+              ],
+              "passed": true
+            },
+            {
+              "team": 30,
+              "side": 1,
+              "pitch": 8,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 11653,
+              "extraOpeners": [],
+              "specialistReferencePool": [
+                3152,
+                4941,
+                8944,
+                155,
+                29933
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                11653,
+                3152,
+                4941,
+                8944,
+                155,
+                29933,
+                13615,
+                1969,
+                2390,
+                13108,
+                12388
+              ],
+              "battingTrio": [
+                2390,
+                13108,
+                12388
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [],
+              "xi": [
+                {
+                  "id": 13615,
+                  "name": "B.Dippenaar",
+                  "role": 2,
+                  "skill": 52,
+                  "accuracy": 12,
+                  "primary": 0,
+                  "secondary": 4,
+                  "legacy": 0
+                },
+                {
+                  "id": 1969,
+                  "name": "G.Smith",
+                  "role": 2,
+                  "skill": 56,
+                  "accuracy": 34,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2390,
+                  "name": "J.Kallis",
+                  "role": 9,
+                  "skill": 57,
+                  "accuracy": 56,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 13108,
+                  "name": "H.Gibbs",
+                  "role": 1,
+                  "skill": 56,
+                  "accuracy": 38,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 12388,
+                  "name": "J.Rudolph",
+                  "role": 1,
+                  "skill": 54,
+                  "accuracy": 45,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 11653,
+                  "name": "M.Boucher",
+                  "role": 6,
+                  "skill": 49,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 3152,
+                  "name": "S.Pollock",
+                  "role": 10,
+                  "skill": 48,
+                  "accuracy": 58,
+                  "primary": 5,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 29933,
+                  "name": "N.Boje",
+                  "role": 5,
+                  "skill": 47,
+                  "accuracy": 54,
+                  "primary": 7,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 155,
+                  "name": "J.van der Wath",
+                  "role": 3,
+                  "skill": 39,
+                  "accuracy": 51,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4941,
+                  "name": "M.Ntini",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 56,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 8944,
+                  "name": "A.Nel",
+                  "role": 3,
+                  "skill": 35,
+                  "accuracy": 52,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                3152,
+                4941,
+                8944,
+                155,
+                29933,
+                2390
+              ],
+              "passed": true
+            },
+            {
+              "team": 2,
+              "side": 1,
+              "pitch": 0,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 172,
+              "extraOpeners": [
+                24437
+              ],
+              "specialistReferencePool": [
+                174,
+                173,
+                22193,
+                4772
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                172,
+                174,
+                173,
+                22193,
+                4772,
+                25254,
+                25041,
+                23237,
+                24437,
+                2150,
+                21
+              ],
+              "battingTrio": [
+                23237,
+                24437,
+                2150
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": 23237,
+              "accuracyCredit": true,
+              "requiredAdditionalALL": 0,
+              "additionalPicks": [
+                {
+                  "id": 21,
+                  "role": 4,
+                  "pool": "any",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 25254,
+                  "name": "C.Summersfield",
+                  "role": 2,
+                  "skill": 44,
+                  "accuracy": 40,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 25041,
+                  "name": "M.Brainst",
+                  "role": 8,
+                  "skill": 46,
+                  "accuracy": 38,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 24437,
+                  "name": "B.de Witmore",
+                  "role": 2,
+                  "skill": 40,
+                  "accuracy": 7,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 172,
+                  "name": "M.Butcher",
+                  "role": 6,
+                  "skill": 49,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4772,
+                  "name": "P.Strickten",
+                  "role": 5,
+                  "skill": 46,
+                  "accuracy": 51,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 23237,
+                  "name": "S.Porthas",
+                  "role": 5,
+                  "skill": 45,
+                  "accuracy": 46,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 173,
+                  "name": "T.Humphrys",
+                  "role": 10,
+                  "skill": 42,
+                  "accuracy": 51,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 21,
+                  "name": "R.Petermore",
+                  "role": 4,
+                  "skill": 40,
+                  "accuracy": 48,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2150,
+                  "name": "L.Gabriel",
+                  "role": 1,
+                  "skill": 40,
+                  "accuracy": 4,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 174,
+                  "name": "M.Nickson",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 56,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 22193,
+                  "name": "L.Grayeson",
+                  "role": 3,
+                  "skill": 32,
+                  "accuracy": 43,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                174,
+                173,
+                22193,
+                4772,
+                21,
+                23237
+              ],
+              "passed": true
+            },
+            {
+              "team": 2,
+              "side": 1,
+              "pitch": 8,
+              "overs": 50,
+              "activeSquadCount": 20,
+              "keeper": 172,
+              "extraOpeners": [
+                24437
+              ],
+              "specialistReferencePool": [
+                174,
+                173,
+                4772
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                172,
+                174,
+                173,
+                4772,
+                25254,
+                25041,
+                23237,
+                24437,
+                2150,
+                21,
+                32484
+              ],
+              "battingTrio": [
+                23237,
+                24437,
+                2150
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": 23237,
+              "accuracyCredit": true,
+              "requiredAdditionalALL": 0,
+              "additionalPicks": [
+                {
+                  "id": 21,
+                  "role": 4,
+                  "pool": "any",
+                  "criterion": "Skill"
+                },
+                {
+                  "id": 32484,
+                  "role": 1,
+                  "pool": "any",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 25254,
+                  "name": "C.Summersfield",
+                  "role": 2,
+                  "skill": 44,
+                  "accuracy": 40,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 25041,
+                  "name": "M.Brainst",
+                  "role": 8,
+                  "skill": 46,
+                  "accuracy": 38,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 24437,
+                  "name": "B.de Witmore",
+                  "role": 2,
+                  "skill": 40,
+                  "accuracy": 7,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 172,
+                  "name": "M.Butcher",
+                  "role": 6,
+                  "skill": 49,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4772,
+                  "name": "P.Strickten",
+                  "role": 5,
+                  "skill": 46,
+                  "accuracy": 51,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 23237,
+                  "name": "S.Porthas",
+                  "role": 5,
+                  "skill": 45,
+                  "accuracy": 46,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 173,
+                  "name": "T.Humphrys",
+                  "role": 10,
+                  "skill": 42,
+                  "accuracy": 51,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 21,
+                  "name": "R.Petermore",
+                  "role": 4,
+                  "skill": 40,
+                  "accuracy": 48,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2150,
+                  "name": "L.Gabriel",
+                  "role": 1,
+                  "skill": 40,
+                  "accuracy": 4,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 32484,
+                  "name": "M.Sinclair",
+                  "role": 1,
+                  "skill": 40,
+                  "accuracy": 38,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 174,
+                  "name": "M.Nickson",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 56,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                174,
+                173,
+                4772,
+                21,
+                23237,
+                25254
+              ],
+              "passed": true
+            },
+            {
+              "team": 2,
+              "side": 1,
+              "pitch": 0,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 172,
+              "extraOpeners": [
+                24437
+              ],
+              "specialistReferencePool": [
+                174,
+                173,
+                22193,
+                4772
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                172,
+                174,
+                173,
+                22193,
+                4772,
+                25254,
+                25041,
+                23237,
+                24437,
+                2150,
+                32484
+              ],
+              "battingTrio": [
+                23237,
+                24437,
+                2150
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [
+                {
+                  "id": 32484,
+                  "role": 1,
+                  "pool": "BAT/ALL",
+                  "criterion": "Skill"
+                }
+              ],
+              "xi": [
+                {
+                  "id": 25254,
+                  "name": "C.Summersfield",
+                  "role": 2,
+                  "skill": 44,
+                  "accuracy": 40,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 25041,
+                  "name": "M.Brainst",
+                  "role": 8,
+                  "skill": 46,
+                  "accuracy": 38,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 24437,
+                  "name": "B.de Witmore",
+                  "role": 2,
+                  "skill": 40,
+                  "accuracy": 7,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 172,
+                  "name": "M.Butcher",
+                  "role": 6,
+                  "skill": 49,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4772,
+                  "name": "P.Strickten",
+                  "role": 5,
+                  "skill": 46,
+                  "accuracy": 51,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 23237,
+                  "name": "S.Porthas",
+                  "role": 5,
+                  "skill": 45,
+                  "accuracy": 46,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 173,
+                  "name": "T.Humphrys",
+                  "role": 10,
+                  "skill": 42,
+                  "accuracy": 51,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2150,
+                  "name": "L.Gabriel",
+                  "role": 1,
+                  "skill": 40,
+                  "accuracy": 4,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 32484,
+                  "name": "M.Sinclair",
+                  "role": 1,
+                  "skill": 40,
+                  "accuracy": 38,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 174,
+                  "name": "M.Nickson",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 56,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 22193,
+                  "name": "L.Grayeson",
+                  "role": 3,
+                  "skill": 32,
+                  "accuracy": 43,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                174,
+                173,
+                22193,
+                4772,
+                23237,
+                25254
+              ],
+              "passed": true
+            },
+            {
+              "team": 2,
+              "side": 1,
+              "pitch": 8,
+              "overs": -1,
+              "activeSquadCount": 20,
+              "keeper": 172,
+              "extraOpeners": [
+                24437
+              ],
+              "specialistReferencePool": [
+                174,
+                173,
+                22193,
+                821,
+                4772
+              ],
+              "poolEvidence": "reference model; actual native stages run inside build",
+              "ids": [
+                172,
+                174,
+                173,
+                22193,
+                821,
+                4772,
+                25254,
+                25041,
+                23237,
+                24437,
+                2150
+              ],
+              "battingTrio": [
+                23237,
+                24437,
+                2150
+              ],
+              "battingAllrounders": 1,
+              "accuracyWinner": null,
+              "accuracyCredit": false,
+              "requiredAdditionalALL": null,
+              "additionalPicks": [],
+              "xi": [
+                {
+                  "id": 25254,
+                  "name": "C.Summersfield",
+                  "role": 2,
+                  "skill": 44,
+                  "accuracy": 40,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 25041,
+                  "name": "M.Brainst",
+                  "role": 8,
+                  "skill": 46,
+                  "accuracy": 38,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 24437,
+                  "name": "B.de Witmore",
+                  "role": 2,
+                  "skill": 40,
+                  "accuracy": 7,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 172,
+                  "name": "M.Butcher",
+                  "role": 6,
+                  "skill": 49,
+                  "accuracy": 8,
+                  "primary": 1,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 4772,
+                  "name": "P.Strickten",
+                  "role": 5,
+                  "skill": 46,
+                  "accuracy": 51,
+                  "primary": 0,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 23237,
+                  "name": "S.Porthas",
+                  "role": 5,
+                  "skill": 45,
+                  "accuracy": 46,
+                  "primary": 2,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 173,
+                  "name": "T.Humphrys",
+                  "role": 10,
+                  "skill": 42,
+                  "accuracy": 51,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 2150,
+                  "name": "L.Gabriel",
+                  "role": 1,
+                  "skill": 40,
+                  "accuracy": 4,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 174,
+                  "name": "M.Nickson",
+                  "role": 10,
+                  "skill": 37,
+                  "accuracy": 56,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 22193,
+                  "name": "L.Grayeson",
+                  "role": 3,
+                  "skill": 32,
+                  "accuracy": 43,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                },
+                {
+                  "id": 821,
+                  "name": "M.Macelsfield",
+                  "role": 3,
+                  "skill": 29,
+                  "accuracy": 35,
+                  "primary": 4,
+                  "secondary": 0,
+                  "legacy": 0
+                }
+              ],
+              "bowling": [
+                174,
+                173,
+                22193,
+                821,
+                4772,
+                23237
+              ],
+              "passed": true
+            }
+          ]
+        }
+      }
+    ],
+    "messages_truncated": false,
+    "source_kind": "file",
+    "source_path": "D:\\Harshvardhan\\Documents\\ChatGPT\\C07 Functional Analysis 2\\plugins\\Cricket07Lineup\\tests\\runtime_smoke.js",
+    "source_sha256": "21a32b34a528836276362bfb50bf7c32c1ba5beb1d51feb881c0926e4eb3f849",
+    "cleanup_error": null
+  },
+  "confidence": "observed",
+  "authority": "external-service",
+  "environment": null,
+  "limitations": [
+    "Artifact identity is unavailable for this observation.",
+    "The target operating system and architecture were not reported by this observation."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

@@ -1,0 +1,69 @@
+{
+  "evidence_id": "ev_589530e9a0f7604f4d69416035af293060358feada4592614eeebe933f351d28",
+  "subject": null,
+  "provider": {
+    "id": "frida",
+    "name": "Frida",
+    "version": null
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.frida.instrumentation-observation",
+  "operation": "instrument_with_frida",
+  "parameters": {
+    "session_id": "5b0361ee-e2da-440d-819c-b4e00346b9ee",
+    "device_id": "local",
+    "mode": "attach",
+    "pid": 13972
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "session_id": "5b0361ee-e2da-440d-819c-b4e00346b9ee",
+    "device_id": "local",
+    "state": "running",
+    "target": "Cricket07.exe (pid 13972)",
+    "pid": 13972,
+    "mode": "attach",
+    "scripts": [
+      {
+        "script_id": "850c7165-e560-496b-afe5-ea729e654bda",
+        "name": "rea-850c7165-e560-496b-afe5-ea729e654bda"
+      }
+    ],
+    "messages": [
+      {
+        "script_id": "850c7165-e560-496b-afe5-ea729e654bda",
+        "type": "send",
+        "payload": {
+          "status": 1,
+          "module": "E:\\Cricket07\\Cricket07Lineup.asi",
+          "entry": [
+            233,
+            251,
+            159,
+            200,
+            108,
+            144,
+            144,
+            144
+          ],
+          "squadCount": 20
+        }
+      }
+    ],
+    "messages_truncated": false,
+    "source_kind": "inline",
+    "source_path": null,
+    "source_sha256": "155e1efc520ab0af91fb51fcc5ca866fa36558bd2d752274811633e7144ccb46",
+    "cleanup_error": null
+  },
+  "confidence": "observed",
+  "authority": "external-service",
+  "environment": null,
+  "limitations": [
+    "Artifact identity is unavailable for this observation.",
+    "The target operating system and architecture were not reported by this observation."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

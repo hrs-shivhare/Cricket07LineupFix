@@ -1,0 +1,888 @@
+{
+  "evidence_id": "ev_f5f0a4aa97c57cf494199b955b7daf0072672217cc663426870c4e7fd13f2acb",
+  "subject": null,
+  "provider": {
+    "id": "frida",
+    "name": "Frida",
+    "version": null
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.frida.instrumentation-observation",
+  "operation": "instrument_with_frida",
+  "parameters": {
+    "session_id": "5d669712-5963-498a-bf6a-b14002a12012",
+    "device_id": "local",
+    "mode": "attach",
+    "pid": 35252
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "session_id": "5d669712-5963-498a-bf6a-b14002a12012",
+    "device_id": "local",
+    "state": "running",
+    "target": "Cricket07.exe (pid 35252)",
+    "pid": 35252,
+    "mode": "attach",
+    "scripts": [
+      {
+        "script_id": "30e7d638-b0d9-4010-9e7e-a4ce1ffdda07",
+        "name": "rea-30e7d638-b0d9-4010-9e7e-a4ce1ffdda07"
+      }
+    ],
+    "messages": [
+      {
+        "script_id": "30e7d638-b0d9-4010-9e7e-a4ce1ffdda07",
+        "type": "send",
+        "payload": {
+          "type": "readonly-south-africa-snapshot",
+          "pid": 35252,
+          "pitch": 5,
+          "overs": 10,
+          "activeSquadCount": 20,
+          "status": 1,
+          "squad": [
+            {
+              "squadPosition": 1,
+              "eligibleByCount": true,
+              "player": {
+                "id": 1969,
+                "name": "G.Smith",
+                "role": "OBT",
+                "roleCode": 2,
+                "skillRaw": 56,
+                "skill": 90,
+                "accuracyRaw": 34,
+                "catchingRaw": 54,
+                "primaryField": 0,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 2,
+              "eligibleByCount": true,
+              "player": {
+                "id": 11653,
+                "name": "M.Boucher",
+                "role": "WK",
+                "roleCode": 6,
+                "skillRaw": 49,
+                "skill": 77,
+                "accuracyRaw": 8,
+                "catchingRaw": 57,
+                "primaryField": 1,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 3,
+              "eligibleByCount": true,
+              "player": {
+                "id": 19535,
+                "name": "C.Langeveldt",
+                "role": "OBW",
+                "roleCode": 10,
+                "skillRaw": 36,
+                "skill": 55,
+                "accuracyRaw": 52,
+                "catchingRaw": 52,
+                "primaryField": 4,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 4,
+              "eligibleByCount": true,
+              "player": {
+                "id": 47,
+                "name": "A.de Villiers",
+                "role": "BAT",
+                "roleCode": 1,
+                "skillRaw": 52,
+                "skill": 82,
+                "accuracyRaw": 12,
+                "catchingRaw": 52,
+                "primaryField": 1,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 5,
+              "eligibleByCount": true,
+              "player": {
+                "id": 13615,
+                "name": "B.Dippenaar",
+                "role": "OBT",
+                "roleCode": 2,
+                "skillRaw": 52,
+                "skill": 82,
+                "accuracyRaw": 12,
+                "catchingRaw": 53,
+                "primaryField": 0,
+                "secondaryField": 4,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 6,
+              "eligibleByCount": true,
+              "player": {
+                "id": 13108,
+                "name": "H.Gibbs",
+                "role": "BAT",
+                "roleCode": 1,
+                "skillRaw": 56,
+                "skill": 90,
+                "accuracyRaw": 38,
+                "catchingRaw": 57,
+                "primaryField": 0,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 7,
+              "eligibleByCount": true,
+              "player": {
+                "id": 25003,
+                "name": "A.Hall",
+                "role": "ALL",
+                "roleCode": 9,
+                "skillRaw": 49,
+                "skill": 77,
+                "accuracyRaw": 54,
+                "catchingRaw": 54,
+                "primaryField": 0,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 8,
+              "eligibleByCount": true,
+              "player": {
+                "id": 2390,
+                "name": "J.Kallis",
+                "role": "ALL",
+                "roleCode": 9,
+                "skillRaw": 57,
+                "skill": 92,
+                "accuracyRaw": 56,
+                "catchingRaw": 57,
+                "primaryField": 2,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 9,
+              "eligibleByCount": true,
+              "player": {
+                "id": 11896,
+                "name": "J.Kemp",
+                "role": "ALL",
+                "roleCode": 9,
+                "skillRaw": 45,
+                "skill": 70,
+                "accuracyRaw": 52,
+                "catchingRaw": 52,
+                "primaryField": 0,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 10,
+              "eligibleByCount": true,
+              "player": {
+                "id": 153,
+                "name": "L.Bosman",
+                "role": "BAT",
+                "roleCode": 1,
+                "skillRaw": 51,
+                "skill": 80,
+                "accuracyRaw": 22,
+                "catchingRaw": 50,
+                "primaryField": 0,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 11,
+              "eligibleByCount": true,
+              "player": {
+                "id": 12788,
+                "name": "D.Steyn",
+                "role": "BWL",
+                "roleCode": 3,
+                "skillRaw": 34,
+                "skill": 52,
+                "accuracyRaw": 48,
+                "catchingRaw": 51,
+                "primaryField": 4,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 12,
+              "eligibleByCount": true,
+              "player": {
+                "id": 8944,
+                "name": "A.Nel",
+                "role": "BWL",
+                "roleCode": 3,
+                "skillRaw": 35,
+                "skill": 54,
+                "accuracyRaw": 52,
+                "catchingRaw": 51,
+                "primaryField": 4,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 13,
+              "eligibleByCount": true,
+              "player": {
+                "id": 4941,
+                "name": "M.Ntini",
+                "role": "OBW",
+                "roleCode": 10,
+                "skillRaw": 37,
+                "skill": 57,
+                "accuracyRaw": 56,
+                "catchingRaw": 54,
+                "primaryField": 4,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 14,
+              "eligibleByCount": true,
+              "player": {
+                "id": 154,
+                "name": "R.Telemachus",
+                "role": "BWL",
+                "roleCode": 3,
+                "skillRaw": 44,
+                "skill": 69,
+                "accuracyRaw": 48,
+                "catchingRaw": 54,
+                "primaryField": 0,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 15,
+              "eligibleByCount": true,
+              "player": {
+                "id": 3152,
+                "name": "S.Pollock",
+                "role": "OBW",
+                "roleCode": 10,
+                "skillRaw": 48,
+                "skill": 75,
+                "accuracyRaw": 58,
+                "catchingRaw": 54,
+                "primaryField": 5,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 16,
+              "eligibleByCount": true,
+              "player": {
+                "id": 12388,
+                "name": "J.Rudolph",
+                "role": "BAT",
+                "roleCode": 1,
+                "skillRaw": 54,
+                "skill": 86,
+                "accuracyRaw": 45,
+                "catchingRaw": 53,
+                "primaryField": 0,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 17,
+              "eligibleByCount": true,
+              "player": {
+                "id": 29933,
+                "name": "N.Boje",
+                "role": "ASP",
+                "roleCode": 5,
+                "skillRaw": 47,
+                "skill": 74,
+                "accuracyRaw": 54,
+                "catchingRaw": 53,
+                "primaryField": 7,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 18,
+              "eligibleByCount": true,
+              "player": {
+                "id": 2318,
+                "name": "A.Prince",
+                "role": "BAT",
+                "roleCode": 1,
+                "skillRaw": 50,
+                "skill": 79,
+                "accuracyRaw": 12,
+                "catchingRaw": 52,
+                "primaryField": 3,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 19,
+              "eligibleByCount": true,
+              "player": {
+                "id": 155,
+                "name": "J.van der Wath",
+                "role": "BWL",
+                "roleCode": 3,
+                "skillRaw": 39,
+                "skill": 60,
+                "accuracyRaw": 51,
+                "catchingRaw": 51,
+                "primaryField": 4,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            },
+            {
+              "squadPosition": 20,
+              "eligibleByCount": true,
+              "player": {
+                "id": 4266,
+                "name": "H.Amla",
+                "role": "BAT",
+                "roleCode": 1,
+                "skillRaw": 43,
+                "skill": 67,
+                "accuracyRaw": 3,
+                "catchingRaw": 50,
+                "primaryField": 0,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              }
+            }
+          ],
+          "sides": [
+            {
+              "side": 0,
+              "keeper": {
+                "id": 11653,
+                "name": "M.Boucher",
+                "role": "WK",
+                "roleCode": 6,
+                "skillRaw": 49,
+                "skill": 77,
+                "accuracyRaw": 8,
+                "catchingRaw": 57,
+                "primaryField": 1,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              },
+              "xi": [
+                {
+                  "id": 13615,
+                  "name": "B.Dippenaar",
+                  "role": "OBT",
+                  "roleCode": 2,
+                  "skillRaw": 52,
+                  "skill": 82,
+                  "accuracyRaw": 12,
+                  "catchingRaw": 53,
+                  "primaryField": 0,
+                  "secondaryField": 4,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 1969,
+                  "name": "G.Smith",
+                  "role": "OBT",
+                  "roleCode": 2,
+                  "skillRaw": 56,
+                  "skill": 90,
+                  "accuracyRaw": 34,
+                  "catchingRaw": 54,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 2390,
+                  "name": "J.Kallis",
+                  "role": "ALL",
+                  "roleCode": 9,
+                  "skillRaw": 57,
+                  "skill": 92,
+                  "accuracyRaw": 56,
+                  "catchingRaw": 57,
+                  "primaryField": 2,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 13108,
+                  "name": "H.Gibbs",
+                  "role": "BAT",
+                  "roleCode": 1,
+                  "skillRaw": 56,
+                  "skill": 90,
+                  "accuracyRaw": 38,
+                  "catchingRaw": 57,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 12388,
+                  "name": "J.Rudolph",
+                  "role": "BAT",
+                  "roleCode": 1,
+                  "skillRaw": 54,
+                  "skill": 86,
+                  "accuracyRaw": 45,
+                  "catchingRaw": 53,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 11653,
+                  "name": "M.Boucher",
+                  "role": "WK",
+                  "roleCode": 6,
+                  "skillRaw": 49,
+                  "skill": 77,
+                  "accuracyRaw": 8,
+                  "catchingRaw": 57,
+                  "primaryField": 1,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 25003,
+                  "name": "A.Hall",
+                  "role": "ALL",
+                  "roleCode": 9,
+                  "skillRaw": 49,
+                  "skill": 77,
+                  "accuracyRaw": 54,
+                  "catchingRaw": 54,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 3152,
+                  "name": "S.Pollock",
+                  "role": "OBW",
+                  "roleCode": 10,
+                  "skillRaw": 48,
+                  "skill": 75,
+                  "accuracyRaw": 58,
+                  "catchingRaw": 54,
+                  "primaryField": 5,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 29933,
+                  "name": "N.Boje",
+                  "role": "ASP",
+                  "roleCode": 5,
+                  "skillRaw": 47,
+                  "skill": 74,
+                  "accuracyRaw": 54,
+                  "catchingRaw": 53,
+                  "primaryField": 7,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 4941,
+                  "name": "M.Ntini",
+                  "role": "OBW",
+                  "roleCode": 10,
+                  "skillRaw": 37,
+                  "skill": 57,
+                  "accuracyRaw": 56,
+                  "catchingRaw": 54,
+                  "primaryField": 4,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 8944,
+                  "name": "A.Nel",
+                  "role": "BWL",
+                  "roleCode": 3,
+                  "skillRaw": 35,
+                  "skill": 54,
+                  "accuracyRaw": 52,
+                  "catchingRaw": 51,
+                  "primaryField": 4,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                }
+              ],
+              "bowling": [
+                {
+                  "id": 3152,
+                  "name": "S.Pollock",
+                  "role": "OBW",
+                  "roleCode": 10,
+                  "skillRaw": 48,
+                  "skill": 75,
+                  "accuracyRaw": 58,
+                  "catchingRaw": 54,
+                  "primaryField": 5,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 4941,
+                  "name": "M.Ntini",
+                  "role": "OBW",
+                  "roleCode": 10,
+                  "skillRaw": 37,
+                  "skill": 57,
+                  "accuracyRaw": 56,
+                  "catchingRaw": 54,
+                  "primaryField": 4,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 8944,
+                  "name": "A.Nel",
+                  "role": "BWL",
+                  "roleCode": 3,
+                  "skillRaw": 35,
+                  "skill": 54,
+                  "accuracyRaw": 52,
+                  "catchingRaw": 51,
+                  "primaryField": 4,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 29933,
+                  "name": "N.Boje",
+                  "role": "ASP",
+                  "roleCode": 5,
+                  "skillRaw": 47,
+                  "skill": 74,
+                  "accuracyRaw": 54,
+                  "catchingRaw": 53,
+                  "primaryField": 7,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 25003,
+                  "name": "A.Hall",
+                  "role": "ALL",
+                  "roleCode": 9,
+                  "skillRaw": 49,
+                  "skill": 77,
+                  "accuracyRaw": 54,
+                  "catchingRaw": 54,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 2390,
+                  "name": "J.Kallis",
+                  "role": "ALL",
+                  "roleCode": 9,
+                  "skillRaw": 57,
+                  "skill": 92,
+                  "accuracyRaw": 56,
+                  "catchingRaw": 57,
+                  "primaryField": 2,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                }
+              ]
+            },
+            {
+              "side": 1,
+              "keeper": {
+                "id": 8584,
+                "name": "Khalid Mased",
+                "role": "WK",
+                "roleCode": 6,
+                "skillRaw": 46,
+                "skill": 72,
+                "accuracyRaw": 9,
+                "catchingRaw": 48,
+                "primaryField": 1,
+                "secondaryField": 0,
+                "legacyKeeper": 0
+              },
+              "xi": [
+                {
+                  "id": 25732,
+                  "name": "Harman Sakir",
+                  "role": "OBT",
+                  "roleCode": 2,
+                  "skillRaw": 46,
+                  "skill": 72,
+                  "accuracyRaw": 39,
+                  "catchingRaw": 44,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 15006,
+                  "name": "Jased Omir",
+                  "role": "OBT",
+                  "roleCode": 2,
+                  "skillRaw": 49,
+                  "skill": 77,
+                  "accuracyRaw": 21,
+                  "catchingRaw": 43,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 21285,
+                  "name": "Habib Beshir",
+                  "role": "BAT",
+                  "roleCode": 1,
+                  "skillRaw": 52,
+                  "skill": 82,
+                  "accuracyRaw": 29,
+                  "catchingRaw": 48,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 13894,
+                  "name": "Alik Kapeli",
+                  "role": "ASP",
+                  "roleCode": 5,
+                  "skillRaw": 52,
+                  "skill": 82,
+                  "accuracyRaw": 44,
+                  "catchingRaw": 47,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 2218,
+                  "name": "Raizin Saleb",
+                  "role": "BAT",
+                  "roleCode": 1,
+                  "skillRaw": 51,
+                  "skill": 80,
+                  "accuracyRaw": 37,
+                  "catchingRaw": 51,
+                  "primaryField": 3,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 8584,
+                  "name": "Khalid Mased",
+                  "role": "WK",
+                  "roleCode": 6,
+                  "skillRaw": 46,
+                  "skill": 72,
+                  "accuracyRaw": 9,
+                  "catchingRaw": 48,
+                  "primaryField": 1,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 22617,
+                  "name": "Mandjura Islam",
+                  "role": "BWL",
+                  "roleCode": 3,
+                  "skillRaw": 41,
+                  "skill": 64,
+                  "accuracyRaw": 45,
+                  "catchingRaw": 45,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 15037,
+                  "name": "Enamil Hake",
+                  "role": "SBW",
+                  "roleCode": 4,
+                  "skillRaw": 40,
+                  "skill": 62,
+                  "accuracyRaw": 45,
+                  "catchingRaw": 42,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 12380,
+                  "name": "Mashef Mortaz",
+                  "role": "OBW",
+                  "roleCode": 10,
+                  "skillRaw": 37,
+                  "skill": 57,
+                  "accuracyRaw": 49,
+                  "catchingRaw": 44,
+                  "primaryField": 4,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 5987,
+                  "name": "Abdul Razzik",
+                  "role": "SBW",
+                  "roleCode": 4,
+                  "skillRaw": 34,
+                  "skill": 52,
+                  "accuracyRaw": 45,
+                  "catchingRaw": 40,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 3636,
+                  "name": "Tarek Aziq",
+                  "role": "OBW",
+                  "roleCode": 10,
+                  "skillRaw": 33,
+                  "skill": 50,
+                  "accuracyRaw": 46,
+                  "catchingRaw": 45,
+                  "primaryField": 4,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                }
+              ],
+              "bowling": [
+                {
+                  "id": 12380,
+                  "name": "Mashef Mortaz",
+                  "role": "OBW",
+                  "roleCode": 10,
+                  "skillRaw": 37,
+                  "skill": 57,
+                  "accuracyRaw": 49,
+                  "catchingRaw": 44,
+                  "primaryField": 4,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 3636,
+                  "name": "Tarek Aziq",
+                  "role": "OBW",
+                  "roleCode": 10,
+                  "skillRaw": 33,
+                  "skill": 50,
+                  "accuracyRaw": 46,
+                  "catchingRaw": 45,
+                  "primaryField": 4,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 22617,
+                  "name": "Mandjura Islam",
+                  "role": "BWL",
+                  "roleCode": 3,
+                  "skillRaw": 41,
+                  "skill": 64,
+                  "accuracyRaw": 45,
+                  "catchingRaw": 45,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 5987,
+                  "name": "Abdul Razzik",
+                  "role": "SBW",
+                  "roleCode": 4,
+                  "skillRaw": 34,
+                  "skill": 52,
+                  "accuracyRaw": 45,
+                  "catchingRaw": 40,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 15037,
+                  "name": "Enamil Hake",
+                  "role": "SBW",
+                  "roleCode": 4,
+                  "skillRaw": 40,
+                  "skill": 62,
+                  "accuracyRaw": 45,
+                  "catchingRaw": 42,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                },
+                {
+                  "id": 13894,
+                  "name": "Alik Kapeli",
+                  "role": "ASP",
+                  "roleCode": 5,
+                  "skillRaw": 52,
+                  "skill": 82,
+                  "accuracyRaw": 44,
+                  "catchingRaw": 47,
+                  "primaryField": 0,
+                  "secondaryField": 0,
+                  "legacyKeeper": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "messages_truncated": false,
+    "source_kind": "inline",
+    "source_path": null,
+    "source_sha256": "7b96f445753c14a9800b9a5033a1a3ab22cdbc78327d8c4429a4645c111346d5",
+    "cleanup_error": null
+  },
+  "confidence": "observed",
+  "authority": "external-service",
+  "environment": null,
+  "limitations": [
+    "Artifact identity is unavailable for this observation.",
+    "The target operating system and architecture were not reported by this observation."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

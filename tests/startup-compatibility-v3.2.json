@@ -1,0 +1,16 @@
+[
+  {
+    "Case": "allowed",
+    "PID": 29228,
+    "Applied": true,
+    "Passed": true,
+    "Log": "Cricket07Lineup 3.2 initializing: v3.1 lineup rules; modified-EXE code/layout compatibility checks.\r\nEXE SHA-256: 7c217b094b37771ee2ba573b0671abcd9d31c960b078966fd96eaf7309d0e282\r\nWARNING: executable SHA-256 differs from reference; continuing with required code/layout checks.\r\nCOMPATIBLE: 15 required functions, lineup entry and data ranges match reference layout.\r\nAPPLIED: automatic lineup builder at VA 0x417330 (RVA 0x17330).\r\nRules: limited ALL/ASP Accuracy first; applicable Test BAT/ALL Skill flex before bowling; missing OBW join BWL/ALL; keeper competes for opener.\r\n"
+  },
+  {
+    "Case": "refused",
+    "PID": 34756,
+    "Applied": false,
+    "Passed": true,
+    "Log": "Cricket07Lineup 3.2 initializing: v3.1 lineup rules; modified-EXE code/layout compatibility checks.\r\nEXE SHA-256: 6f8e4a41ecdd139765e6eb214c1a6d0cc8982359939bd80f30ea79da5316d72c\r\nWARNING: executable SHA-256 differs from reference; continuing with required code/layout checks.\r\nNOT APPLIED: compatibility check failed: required function VA 0x00417330 differs at RVA 0x00017338.\r\n"
+  }
+]

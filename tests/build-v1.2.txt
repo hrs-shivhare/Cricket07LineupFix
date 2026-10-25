@@ -1,0 +1,65 @@
+Cricket07Lineup core tests passed.
+Live South Africa fixture passed: de Villiers No.6; Hall replaced on Normal/Dry/Hard limited overs.
+Reference replay Australia limited Normal (team 0, pitch 0):
+   1. J.Langer             ID=11373 role= 2 Skill(raw)=56 Accuracy(raw)=13
+   2. M.Hayden             ID= 1814 role= 2 Skill(raw)=57 Accuracy(raw)=28
+   3. R.Ponting            ID=15819 role= 1 Skill(raw)=59 Accuracy(raw)=39
+   4. D.Martyn             ID= 6095 role= 1 Skill(raw)=56 Accuracy(raw)=42
+   5. M.Clarke             ID=10942 role= 1 Skill(raw)=55 Accuracy(raw)=46
+   6. A.Gilchrist          ID= 4196 role= 7 Skill(raw)=53 Accuracy(raw)= 8 [keeper]
+   7. S.Watson             ID=  693 role= 9 Skill(raw)=48 Accuracy(raw)=54
+   8. S.Warne              ID=31486 role= 4 Skill(raw)=41 Accuracy(raw)=57
+   9. B.Lee                ID=15909 role=10 Skill(raw)=39 Accuracy(raw)=56
+  10. S.Clark              ID=18204 role= 3 Skill(raw)=36 Accuracy(raw)=54
+  11. G.McGrath            ID=18858 role=10 Skill(raw)=35 Accuracy(raw)=58
+Batting trio credit example: team=0 pitch=8 credits=0
+Reference replay Australia limited Green (team 0, pitch 8):
+   1. J.Langer             ID=11373 role= 2 Skill(raw)=56 Accuracy(raw)=13
+   2. M.Hayden             ID= 1814 role= 2 Skill(raw)=57 Accuracy(raw)=28
+   3. R.Ponting            ID=15819 role= 1 Skill(raw)=59 Accuracy(raw)=39
+   4. D.Martyn             ID= 6095 role= 1 Skill(raw)=56 Accuracy(raw)=42
+   5. M.Clarke             ID=10942 role= 1 Skill(raw)=55 Accuracy(raw)=46
+   6. A.Symonds            ID= 1536 role= 9 Skill(raw)=54 Accuracy(raw)=48
+   7. A.Gilchrist          ID= 4196 role= 7 Skill(raw)=53 Accuracy(raw)= 8 [keeper]
+   8. S.Watson             ID=  693 role= 9 Skill(raw)=48 Accuracy(raw)=54
+   9. S.Warne              ID=31486 role= 4 Skill(raw)=41 Accuracy(raw)=57
+  10. B.Lee                ID=15909 role=10 Skill(raw)=39 Accuracy(raw)=56
+  11. G.McGrath            ID=18858 role=10 Skill(raw)=35 Accuracy(raw)=58
+Batting trio credit example: team=1 pitch=8 credits=1
+Extra opener example: team=2 pitch=0 test=0 ID=24437 position=3
+Extra opener example: team=2 pitch=0 test=1 ID=24437 position=3
+Reference replay India limited Normal (team 13, pitch 0):
+   1. G.Gemphir            ID=23655 role= 2 Skill(raw)=48 Accuracy(raw)=42
+   2. V.Seway              ID=13319 role= 2 Skill(raw)=55 Accuracy(raw)=43
+   3. S.Tendehar           ID=  929 role= 1 Skill(raw)=60 Accuracy(raw)=45
+   4. R.Dravia             ID=18058 role= 1 Skill(raw)=58 Accuracy(raw)=33
+   5. S.Gungly             ID= 2103 role= 1 Skill(raw)=55 Accuracy(raw)=42
+   6. D.Dhenier            ID=32749 role= 7 Skill(raw)=50 Accuracy(raw)= 6 [keeper]
+   7. Yevray Singh         ID= 1064 role= 9 Skill(raw)=49 Accuracy(raw)=42
+   8. Hurvaj Singh         ID=11422 role= 4 Skill(raw)=40 Accuracy(raw)=57
+   9. Z.Kalm               ID=  179 role=10 Skill(raw)=38 Accuracy(raw)=54
+  10. A.Agercker           ID=18217 role=10 Skill(raw)=38 Accuracy(raw)=51
+  11. A.Naharem            ID=10851 role= 3 Skill(raw)=37 Accuracy(raw)=51
+Reference replay India limited Green (team 13, pitch 8):
+   1. G.Gemphir            ID=23655 role= 2 Skill(raw)=48 Accuracy(raw)=42
+   2. V.Seway              ID=13319 role= 2 Skill(raw)=55 Accuracy(raw)=43
+   3. S.Tendehar           ID=  929 role= 1 Skill(raw)=60 Accuracy(raw)=45
+   4. R.Dravia             ID=18058 role= 1 Skill(raw)=58 Accuracy(raw)=33
+   5. S.Gungly             ID= 2103 role= 1 Skill(raw)=55 Accuracy(raw)=42
+   6. D.Dhenier            ID=32749 role= 7 Skill(raw)=50 Accuracy(raw)= 6 [keeper]
+   7. Yevray Singh         ID= 1064 role= 9 Skill(raw)=49 Accuracy(raw)=42
+   8. S.Bengel             ID=19594 role= 9 Skill(raw)=48 Accuracy(raw)=40
+   9. Hurvaj Singh         ID=11422 role= 4 Skill(raw)=40 Accuracy(raw)=57
+  10. Z.Kalm               ID=  179 role=10 Skill(raw)=38 Accuracy(raw)=54
+  11. A.Agercker           ID=18217 role=10 Skill(raw)=38 Accuracy(raw)=51
+Batting trio credit example: team=15 pitch=8 credits=2
+Roster reference replay passed: 63 teams, 2142 cases (17 pitches x 2 formats), 0 invalid/duplicate squad entries skipped.
+Evidence scope: actual roster data + portable core + modeled native bowling stages; not execution of native game code.
+Native adapter/thiscall/detour/trampoline/DLL tests passed (256 native stage checks).
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          8FFD6B19E9067E0F3C6D2A59AC10D3E9637D50B135D2E338D419EB64427C11AC       D:\Harshvardhan\Documents\ChatGP…
+Upgraded version 1.1; previous ASI preserved in D:\Harshvardhan\Documents\ChatGPT\C07 Functional Analysis 2\plugins\Cricket07Lineup\releases\1.1
+SHA256          8FFD6B19E9067E0F3C6D2A59AC10D3E9637D50B135D2E338D419EB64427C11AC       E:\Cricket07\Cricket07Lineup.asi
+

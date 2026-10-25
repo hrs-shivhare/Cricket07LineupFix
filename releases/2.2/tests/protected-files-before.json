@@ -1,0 +1,32 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "D776DBA0CC506B968F7D228E036CF42AEB4ABE45A8D1AD0D7226CDEBF91553A2",
+    "Path": "E:\\Cricket07\\Cricket07.exe"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "8AE9F3456A49129D6FB505423EEB51D3758F7B3292B76FDF198EA51FB1EAF808",
+    "Path": "E:\\Cricket07\\ddraw.dll"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "8C5A8C4EC8571C45820113E778F1A98A4885C960A4B9EB1E95C0DBC56E1EF2D2",
+    "Path": "E:\\Cricket07\\Cricket07FileLoader.asi"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0337C31CEA334D3808A100CFFABA15B254DC8D4B8C9DE417F1FF1D92F7985D91",
+    "Path": "E:\\Cricket07\\Cricket07CpuVsCpu.asi"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "77CCF07C6D60AD75F692187D0DF22216BC934D0240756398B6B715625378F83F",
+    "Path": "E:\\Cricket07\\data\\data.gob"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "A657F813005C55BC31315164B62CEE542639F5034AA5B282EEE534D41A078CFA",
+    "Path": "E:\\Cricket07\\430834dfd47be8b1eaa97fa22706133a.big"
+  }
+]
