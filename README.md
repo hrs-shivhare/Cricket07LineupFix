@@ -38,3 +38,5 @@ Selection depends on the roles and ratings in your loaded squad. Check the resul
 ## Uninstall
 
 Close the game and remove `Cricket07Lineup.asi`. You can also delete its log file. Keep the ASI loader if other plugins use it.
+
+![Preview](Cricket07LineupFixPreview.gif)
